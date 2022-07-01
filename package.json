@@ -1,0 +1,32 @@
+{
+  "name": "kgctwworld",
+  "version": "0.0.1",
+  "description": "nodeJs_express",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AppWebDevelopment/SNS_nodejs.git"
+  },
+  "keywords": [
+    "sns",
+    "kgc",
+    "nodejs",
+    "express"
+  ],
+  "author": "sean.lee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AppWebDevelopment/SNS_nodejs/issues"
+  },
+  "homepage": "https://github.com/AppWebDevelopment/SNS_nodejs#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "passport": "^0.6.0",
+    "passport-kakao": "^1.0.1",
+    "passport-line": "0.0.4",
+    "passport-local": "^1.0.0"
+  }
+}
